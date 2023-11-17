@@ -33,4 +33,4 @@ Para demostrar la funcionalidad de estas estructuras, se incluye una clase `Prin
 
 ---
 
-© [Año] TheHacha167 - Todos los derechos reservados.
+© 2023 TheHacha167 - Todos los derechos reservados.
