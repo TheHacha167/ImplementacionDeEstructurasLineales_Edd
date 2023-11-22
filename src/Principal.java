@@ -30,4 +30,13 @@ public class Principal {
         queue.insert(2);
         queue.insert(3);
 
-        // Mostrando y manip
+        // Mostrando y manipulando la cola
+        System.out.println("Contenido de la cola: " + queue);
+        System.out.println("Elemento frente de la cola (remove): " + queue.remove());
+        System.out.println("Contenido de la cola después de remove: " + queue);
+        System.out.println("Elemento frente de la cola (seek): " + queue.seek());
+        System.out.println("Tamaño de la cola: " + queue.size());
+        System.out.println("¿Está el número 2 en la cola? " + queue.search(2));
+        System.out.println("¿Está el número 3 en la cola? " + queue.search(3));
+    }
+}
