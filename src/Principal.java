@@ -4,6 +4,12 @@ public class Principal {
         System.out.println("Demostración de IntegerStack:");
         IntegerStack stack = new IntegerStack();
         
+        //Comprobamos que la pila está vacía
+        System.out.println("¿Está la pila vacía? " + stack.toString());
+
+        //Demostramos que funnciona el metodo top() con la pila vacía
+        System.out.println("Elemento superior (top): " + stack.top());
+
         // Añadiendo elementos a la pila
         stack.push(1);
         stack.push(2);
@@ -18,6 +24,7 @@ public class Principal {
         System.out.println("¿Está el número 1 en la pila? " + stack.search(1));
         System.out.println("¿Está el número 2 en la pila? " + stack.search(2));
         System.out.println("¿Está el número 3 en la pila? " + stack.search(3));
+        
 
         System.out.println("\n----------------------------------------\n");
 
@@ -25,6 +32,12 @@ public class Principal {
         System.out.println("Demostración de IntegerQueue:");
         IntegerQueue queue = new IntegerQueue();
         
+        //Comprobamos que la cola está vacía
+        System.out.println("¿Está la cola vacía? " + queue.toString());
+
+        //Demostramos que funnciona el metodo top() con la pila vacía
+        System.out.println("Elemento frente de la cola (seek): " + queue.seek());
+
         // Añadiendo elementos a la cola
         queue.insert(1);
         queue.insert(2);
