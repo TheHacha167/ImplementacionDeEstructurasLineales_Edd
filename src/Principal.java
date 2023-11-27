@@ -15,10 +15,10 @@ public class Principal {
         System.out.println("Contenido de la pila después de pop: " + stack);
         System.out.println("Elemento superior (top): " + stack.top());
         System.out.println("Tamaño de la pila: " + stack.size());
+        System.out.println("¿Está el número 1 en la pila? " + stack.search(1));
         System.out.println("¿Está el número 2 en la pila? " + stack.search(2));
         System.out.println("¿Está el número 3 en la pila? " + stack.search(3));
 
-        // Separador para mayor claridad en la salida
         System.out.println("\n----------------------------------------\n");
 
         // Demostración de IntegerQueue
@@ -36,6 +36,7 @@ public class Principal {
         System.out.println("Contenido de la cola después de remove: " + queue);
         System.out.println("Elemento frente de la cola (seek): " + queue.seek());
         System.out.println("Tamaño de la cola: " + queue.size());
+        System.out.println("¿Está el número 1 en la cola? " + queue.search(1));
         System.out.println("¿Está el número 2 en la cola? " + queue.search(2));
         System.out.println("¿Está el número 3 en la cola? " + queue.search(3));
     }
