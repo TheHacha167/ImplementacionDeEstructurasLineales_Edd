@@ -1,4 +1,4 @@
-public class Principal {
+public class Main {
     public static void main(String[] args) {
         // Demostración de IntegerStack
         System.out.println("Demostración de IntegerStack:");
@@ -8,7 +8,7 @@ public class Principal {
         System.out.println("¿Está la pila vacía? " + stack.toString());
 
         //Demostramos que funnciona el metodo top() con la pila vacía
-        System.out.println("Elemento superior (top): " + stack.top());
+        System.out.println("emostramos que funnciona el metodo top() con la pila vacía (top): " + stack.top());
 
         // Añadiendo elementos a la pila
         stack.push(1);
@@ -35,8 +35,8 @@ public class Principal {
         //Comprobamos que la cola está vacía
         System.out.println("¿Está la cola vacía? " + queue.toString());
 
-        //Demostramos que funnciona el metodo top() con la pila vacía
-        System.out.println("Elemento frente de la cola (seek): " + queue.seek());
+        //Demostramos que funnciona el metodo seek() con la cola vacía
+        System.out.println("Demostramos que funnciona el metodo seek() con la cola vacía (seek): " + queue.seek());
 
         // Añadiendo elementos a la cola
         queue.insert(1);
